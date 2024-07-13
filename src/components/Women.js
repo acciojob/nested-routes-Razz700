@@ -8,14 +8,14 @@ import Jewellery from './women js/Jewellery'
 const Women = () => {
   return (
     <div>Women Items:
-        <nav>
+       
         <ul>
         <li><Link to='/women/Grooming'>Grooming</Link></li>
         <li><Link to='/women/Shirt'>Shirt</Link></li>
         <li><Link to='/women/Trouser'>Trouser</Link></li>
         <li><Link to='/women/Jewellery'>Jewellery</Link></li>
     </ul>
-        </nav>
+   
         <Routes>
             <Route path='/Grooming' element={<Grooming/>} />
             <Route path='/Shirt' element={<Shirt/>} />
