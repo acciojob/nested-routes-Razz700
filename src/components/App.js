@@ -7,18 +7,19 @@ import Home from "./Home";
 
 const App = () => {
   return (
-    <div>
-      Hello,world! gggg
+    <main>
+<div>
       <ul>
         <li><Link to='' >Home</Link></li>
-        <li><Link to='/Women' >Women</Link></li>
+        <li><Link to='/women'>Women</Link></li>
       </ul>
       <Routes>
-        <Route path="/Women/*" element={<Women />} />
+        <Route path="/women/*" element={<Women />} />
         <Route path="/" element={<Home />} />
       </Routes>
         {/* Do not remove the main div */}
     </div>
+    </main>
   )
 }
 

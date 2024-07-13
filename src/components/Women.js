@@ -7,12 +7,12 @@ import Jewellery from './women js/Jewellery'
 
 const Women = () => {
   return (
-    <div>Women
+    <div>Women Items:
     <ul>
-        <li><Link to='/Women/Grooming'>Grooming</Link></li>
-        <li><Link to='/Women/Shirt'>Shirt</Link></li>
-        <li><Link to='/Women/Trouser'>Trouser</Link></li>
-        <li><Link to='/Women/Jewellery'>Jewellery</Link></li>
+        <li><Link to='/women/Grooming'>Grooming</Link></li>
+        <li><Link to='/women/Shirt'>Shirt</Link></li>
+        <li><Link to='/women/Trouser'>Trouser</Link></li>
+        <li><Link to='/women/Jewellery'>Jewellery</Link></li>
     </ul>
         <Routes>
             <Route path='/Grooming' element={<Grooming/>} />
